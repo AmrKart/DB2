@@ -43,7 +43,7 @@ public class ViewTablePage extends javax.swing.JFrame {
         setBackground(new java.awt.Color(153, 0, 0));
 
         ComboBoxTableName.setBackground(new java.awt.Color(0, 0, 0));
-        ComboBoxTableName.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Table To View", "ProductionLines", "Employees", "MedicationCategory", "Medications", "Cities", "Distributors", "Orders", "OrderItems", "Invoices", "InvoiceItems", " " }));
+        ComboBoxTableName.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Table To View", "ProductionLines", "Employees", "MedicationCategory", "Medications", "Cities", "Distributors", "Orders", "ORDERITEMS", "Invoices", "InvoiceItems", " " }));
         ComboBoxTableName.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
                 ComboBoxTableNameItemStateChanged(evt);

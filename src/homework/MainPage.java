@@ -148,10 +148,18 @@ public class MainPage extends javax.swing.JFrame {
 
     private void createTriggerBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_createTriggerBtnActionPerformed
         // TODO add your handling code here:
+        
+        DataBaseHelper.createTrigger();
+        
     }//GEN-LAST:event_createTriggerBtnActionPerformed
 
     private void createViewBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_createViewBtnActionPerformed
         // TODO add your handling code here:
+        DataBaseHelper.createView();
+        dispose();
+        createViewPage cvp = new createViewPage();
+        
+        cvp.show();
     }//GEN-LAST:event_createViewBtnActionPerformed
 
     private void insertBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_insertBtnActionPerformed

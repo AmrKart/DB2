@@ -72,7 +72,7 @@
             <StringItem index="5" value="Cities"/>
             <StringItem index="6" value="Distributors"/>
             <StringItem index="7" value="Orders"/>
-            <StringItem index="8" value="OrderItems"/>
+            <StringItem index="8" value="ORDERITEMS"/>
             <StringItem index="9" value="Invoices"/>
             <StringItem index="10" value="InvoiceItems"/>
             <StringItem index="11" value=" "/>
